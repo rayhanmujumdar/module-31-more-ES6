@@ -29,6 +29,8 @@ const company = {
     }
 }
 const {name,village} = company.ceo;
+const {onePic,onePack,color} = company.price;
+console.log(onePack,onePic,color)
 console.log(name,village);
 // console.log(collage,village,Class);
 // const phone = fish.phone;
