@@ -58,5 +58,8 @@ function name(first,second,third){
     return allName;
 }
 const newColletion = [...nameArray,'iqbal'];
+// destructuring.js
+const [rayhan,sabbir,sakib] = newColletion;
+console.log(rayhan,sabbir,sakib);
 console.log(newColletion)
-console.log(name(...nameArray));
+// console.log(name(...nameArray));
